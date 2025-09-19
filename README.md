@@ -11,14 +11,17 @@ This repository contains the necessary configuration to set up **Apache Kafka** 
 
 ```bash
 ├── 📁 BROKER/
-│   └── docker-compose.yml # Docker Compose file to run Kafka and Zookeeper
+│   ├── .env
+│   ├── .gitignore
+│   ├── README.md
+│   └── docker-compose.yml
 ```
 
 ## Steps to run the project
 
 ### Create .env file:
 
-Rename .example.env file to .env and set your real variables
+Rename .example.env file to .env and set real variables
 
 ### Run the container for the broker
 
